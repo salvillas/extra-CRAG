@@ -26,3 +26,5 @@ git config --list --system -> te da los settings de todos los usuarios de este o
 git config --list --global -> te da los settings de todos los usuarios de tus proyectos
 git config --list --local -> te da los settings de todos los usuarios de este proyecto en concreto
 git config --global setting value -> te permite cambiar un setting concreto por el value nuevo que le quieras dar
+
+Por ahora me quedo aquí
