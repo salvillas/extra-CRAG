@@ -34,3 +34,10 @@ cat file -> te muestra el contenido de un file
 
 git branch -> te indica las distintas ramas existentes, y con un * te indica en cuál te encuentras
 git diff branch1..branch2 -> te indica las diferencias entre 2 ramas
+git checkout branch -> cambias hacia la rama que indiques en branch
+git branch name -> se crea una nueva rama, con el nombre que pongas en name, pero no te mueves a ella
+git checkout -b name-> creas una nueva rama con el nombre que indicques en name, y te mueves a ella 
+
+git rm file -> eliminas el file espefício. Debe hacer un commit a continuación para confirmarlo. Si eliminas un file en una rama, ese file desaparece. Pero si te mueves a otra rama en la que ese file existía, vuelves a disponer de él con la última versión realizada en esa rama.
+
+git merge source destination -> mezclas la rama source en la rama destination. Se abrirá un editor para incluir un mesaje. Si no hay conflictos, todo irá bien. 
