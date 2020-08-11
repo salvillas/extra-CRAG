@@ -27,4 +27,10 @@ git config --list --global -> te da los settings de todos los usuarios de tus pr
 git config --list --local -> te da los settings de todos los usuarios de este proyecto en concreto
 git config --global setting value -> te permite cambiar un setting concreto por el value nuevo que le quieras dar
 
-Por ahora me quedo aquí
+git checkout hash file -> te permite recuperar una versión anterior de archivo file, indicando su hash.
+git log -4 file -> te permite ver solamente los últimos commit que selecciones (4) de un file específico
+
+cat file -> te muestra el contenido de un file
+
+git branch -> te indica las distintas ramas existentes, y con un * te indica en cuál te encuentras
+git diff branch1..branch2 -> te indica las diferencias entre 2 ramas
