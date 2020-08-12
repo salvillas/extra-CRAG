@@ -41,3 +41,14 @@ git checkout -b name-> creas una nueva rama con el nombre que indicques en name,
 git rm file -> eliminas el file espefício. Debe hacer un commit a continuación para confirmarlo. Si eliminas un file en una rama, ese file desaparece. Pero si te mueves a otra rama en la que ese file existía, vuelves a disponer de él con la última versión realizada en esa rama.
 
 git merge source destination -> mezclas la rama source en la rama destination. Se abrirá un editor para incluir un mesaje. Si no hay conflictos, todo irá bien. 
+
+git init project-name -> creas un nuevo repositorio en el directorio con el nombre que des en project-name. No es recomendable crear un repositorio dentro de otro
+git clone -> te permite clonar un proyecto de Git a partir del repositorio (local) o la URL (remoto) que le indiques
+git remote -> te indica los nombres de los remotos cuando has clonado uno
+git remote -v -> te indica las URLs
+git remote add remote-name URL -> añades nuevos remotos
+git remote rm remote-name -> eliminas remotos
+
+git remote add origin URL -> te conectas a la rama origin de la URL del proyecto online de GitHub que selecciones
+git push -u origin master -> envías a la rama origin remota tu rama master
+git pull origin master -> traes los cambios del repositorio remoto a tu repositorio local
